@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Switchback Coffee Co. — Leadville, Colorado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--pine:#1e3a34;--pine-d:#12241f;--cream:#f4ead5;--gold:#e0a43a;--ink:#1b1b1b}
+*{box-sizing:border-box}body{margin:0;font:18px/1.65 Lora,Georgia,serif;color:var(--ink);background:var(--cream)}
+h1,h2,h3{font-family:"Bebas Neue",Impact,sans-serif;letter-spacing:.03em;font-weight:400;line-height:1;margin:0 0 .4em}
+a{color:var(--pine)}.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+nav{background:var(--pine-d);color:var(--cream)}nav .wrap{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;flex-wrap:wrap;gap:10px}
+nav a{color:var(--cream);text-decoration:none;margin-left:18px;font-size:.95rem}.brand{font-family:"Bebas Neue",sans-serif;font-size:1.6rem;margin:0!important}
+.hero{background:linear-gradient(180deg,#2c5249 0%,var(--pine) 60%);color:var(--cream);position:relative;overflow:hidden;padding:80px 0 0}
+.hero h1{font-size:clamp(3.2rem,10vw,6.5rem);color:var(--cream)}.hero p{max-width:30em;font-size:1.15rem;color:#e8dcc0}
+.hero .sun{position:absolute;right:12%;top:40px;width:120px;height:120px;border-radius:50%;background:var(--gold);opacity:.9}
+.hero svg{display:block;width:100%;height:auto;margin-top:40px}
+.btn{display:inline-block;background:var(--gold);color:var(--pine-d);font-weight:600;padding:12px 22px;border-radius:4px;text-decoration:none;margin:8px 8px 0 0}
+.btn.alt{background:transparent;border:2px solid var(--cream);color:var(--cream)}
+section{padding:70px 0}.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+h2{font-size:3rem;color:var(--pine)}
+.menu div{display:flex;justify-content:space-between;border-bottom:1px dashed #b9a982;padding:8px 0}
+.hours{background:var(--pine);color:var(--cream);padding:30px;border-radius:6px}.hours h2{color:var(--gold)}
+.hours table{width:100%;border-collapse:collapse}.hours td{padding:6px 0;border-bottom:1px solid #34584f}.hours td:last-child{text-align:right}
+.about{background:#ebdcbc}.about blockquote{font-style:italic;font-size:1.25rem;border-left:4px solid var(--gold);margin:0;padding-left:18px}
+.contact a{font-weight:600}
+footer{background:var(--pine-d);color:#cfc3a8;padding:28px 0;font-size:.9rem}footer a{color:var(--gold)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:760px){.two{grid-template-columns:1fr}nav a{margin-left:12px}.hero .sun{width:70px;height:70px}}
+</style></head><body>
+<nav><div class="wrap"><a class="brand" href="#">Switchback Coffee Co.</a><div><a href="#menu">Menu</a><a href="#about">About</a><a href="#visit">Visit</a></div></div></nav>
+<header class="hero"><div class="sun" aria-hidden="true"></div><div class="wrap">
+<p style="letter-spacing:.2em;text-transform:uppercase;font-size:.85rem;color:var(--gold)">Leadville, Colorado · Elev. 10,152 ft</p>
+<h1>Strong coffee<br>for high places.</h1>
+<p>Small-batch roasts, house-baked pastries, and a warm seat by the wood stove — right on Harrison Avenue.</p>
+<a class="btn" href="tel:+17195550148">Call (719) 555-0148</a><a class="btn alt" href="#visit">Hours &amp; directions</a></div>
+<svg viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true"><path d="M0 200V120l140-80 110 60 160-95 140 90 120-55 170 100 130-70 230 70v60z" fill="#12241f"/><path d="M0 200v-40l200-50 180 40 220-60 200 55 180-35 220 50v40z" fill="#f4ead5"/></svg>
+</header>
+<main>
+<section id="menu"><div class="wrap two">
+<div class="menu"><h2>On the Menu</h2>
+<div><span>Drip, house roast</span><span>$3</span></div><div><span>Espresso / Americano</span><span>$3.50</span></div>
+<div><span>Mosquito Pass Mocha</span><span>$5.75</span></div><div><span>Chai, made in-house</span><span>$5</span></div>
+<div><span>Green chile breakfast burrito</span><span>$9</span></div><div><span>Cardamom morning bun</span><span>$4.25</span></div>
+<p style="font-size:.95rem;margin-top:14px">Oat, almond &amp; whole milk available. Beans by the pound to take home.</p></div>
+<div class="hours" id="hours"><h2>Hours</h2><table>
+<tr><td>Monday – Friday</td><td>6:00a – 3:00p</td></tr><tr><td>Saturday</td><td>7:00a – 4:00p</td></tr><tr><td>Sunday</td><td>7:00a – 1:00p</td></tr></table>
+<p style="margin-bottom:0">Open early on race weekends. Dogs welcome on the patio.</p></div>
+</div></section>
+<section class="about" id="about"><div class="wrap two"><div><h2>About Us</h2>
+<p>Switchback started in 2019 out of a converted ski-shop corner with one used espresso machine and a lot of stubbornness. Today we roast in small batches in the back, bake every morning before sunrise, and know most of our regulars by their order.</p></div>
+<div><blockquote>"Best cup between Denver and the Divide. And they always remember my dog's name."<br><small>— a regular</small></blockquote></div></div></section>
+<section class="contact" id="visit"><div class="wrap"><h2>Come On By</h2>
+<p>412 Harrison Ave, Leadville, CO 80461</p>
+<p>Phone: <a href="tel:+17195550148">(719) 555-0148</a><br>Email: <a href="mailto:hello@switchbackcoffee.example">hello@switchbackcoffee.example</a></p>
+<p>Street parking out front, bike rack on the side.</p></div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Switchback Coffee Co. (a fictional business)</span><span>Sample site by <a href="../index.html">Forge &amp; Form</a></span></div></footer>
+</body></html>
