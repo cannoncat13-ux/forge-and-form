@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forge &amp; Form — Websites for local businesses</title>
+<meta name="description" content="Custom websites for local businesses. $499 one-time build, $49/month maintenance.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f1e9;--paper:#fffaf2;--ink:#1f1a16;--muted:#5a5048;--accent:#c2410c;--accent-d:#9a3412;--line:#e4d9c8}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.1;margin:0 0 .5em}
+a{color:var(--accent-d)}.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-family:Fraunces,serif;font-weight:800;font-size:1.35rem;text-decoration:none;color:var(--ink);display:flex;gap:10px;align-items:center}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:13px 22px;border-radius:10px;text-decoration:none;font-weight:600}
+.btn:hover{background:var(--accent-d)}.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.hero{padding:60px 0 80px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem)}.hero h1 em{color:var(--accent);font-style:normal}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:34em}.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.anvil{background:var(--ink);border-radius:24px;aspect-ratio:1;display:grid;place-items:center;position:relative;overflow:hidden}
+.anvil::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 70%,#f97316 0,#c2410c 18%,transparent 45%)}
+.anvil svg{position:relative;width:70%}
+section{padding:70px 0;border-top:1px solid var(--line)}.kicker{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:var(--accent-d);font-weight:600}
+h2{font-size:clamp(1.8rem,4vw,2.6rem)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px}.card h3{font-size:1.25rem}.card p{margin:0;color:var(--muted)}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+.plan{background:var(--paper);border:2px solid var(--line);border-radius:20px;padding:32px}.plan.main{border-color:var(--accent)}
+.amt{font-family:Fraunces,serif;font-size:3.4rem;font-weight:800}.amt small{font-size:1rem;font-family:Inter;color:var(--muted);font-weight:500}
+.plan ul{padding-left:1.1em;color:var(--muted)}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+.step{counter-increment:s}.step::before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;margin-bottom:12px}
+.sample{background:var(--ink);color:var(--paper);border-radius:24px;padding:50px;display:flex;justify-content:space-between;gap:30px;align-items:center;flex-wrap:wrap}
+.sample p{color:#d6cbbd;max-width:32em}.sample .btn.ghost{color:var(--paper);border-color:var(--paper)}
+.contact{text-align:center}.contact p{color:var(--muted)}
+footer{padding:30px 0;color:var(--muted);font-size:.9rem;text-align:center}
+@media(max-width:800px){.hero,.price{grid-template-columns:1fr}.grid,.steps{grid-template-columns:1fr}.anvil{max-width:320px}.sample{padding:32px}}
+</style></head><body>
+<div class="wrap">
+<header class="top"><a class="logo" href="./index.html"><svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#c2410c"/><path d="M7 11h18l-4 5h-3v6h4v3H10v-3h4v-6h-3z" fill="#fffaf2"/></svg>Forge &amp; Form</a><a class="btn" href="mailto:forgeandformweb@gmail.com">Get in touch</a></header>
+<main>
+<div class="hero"><div><p class="kicker">Websites for local businesses</p>
+<h1>A real website for your shop, <em>built by hand.</em></h1>
+<p>No site yet? One that's broken, slow, or embarrassing on a phone? I build simple, good-looking websites for local businesses — and keep them running so you don't have to think about it.</p>
+<div class="cta"><a class="btn" href="mailto:forgeandformweb@gmail.com?subject=Website%20for%20my%20business">Email me about your business</a><a class="btn ghost" href="./sample/index.html">See a sample site</a></div></div>
+<div class="anvil" aria-hidden="true"><svg viewBox="0 0 200 140"><path d="M20 30h150c0 18-20 30-45 32v18h20v14H55V80h20V62C45 60 25 50 20 30z" fill="#fffaf2"/><rect x="40" y="100" width="120" height="14" rx="3" fill="#fffaf2"/></svg></div></div>
+
+<section id="what"><p class="kicker">What you get</p><h2>Everything a customer looks for.</h2>
+<div class="grid">
+<div class="card"><h3>Works on every phone</h3><p>Most people find you on their phone. Your site will look right and load fast on all of them.</p></div>
+<div class="card"><h3>The basics, front and center</h3><p>Hours, location, phone number, services, prices — the stuff people actually came for, easy to find.</p></div>
+<div class="card"><h3>Tap to call, tap for directions</h3><p>One tap to call you or open the map. No hunting around.</p></div>
+<div class="card"><h3>Shows up on Google</h3><p>Clean setup so search engines understand who you are and where you are.</p></div>
+<div class="card"><h3>Made for you, not a template</h3><p>Designed around your business, your town, and your customers.</p></div>
+<div class="card"><h3>A real person to call</h3><p>Need your holiday hours changed? Send an email. It gets done.</p></div>
+</div></section>
+
+<section id="pricing"><p class="kicker">Pricing</p><h2>Two simple numbers.</h2><p style="color:var(--muted)">No contracts, no hidden fees, no surprise invoices.</p>
+<div class="price">
+<div class="plan main"><h3>Website build</h3><div class="amt">$499 <small>one-time</small></div><ul><li>Custom design for your business</li><li>Up to 5 pages</li><li>Mobile-friendly, fast, tap-to-call</li><li>Basic Google setup</li><li>Launched on your domain</li></ul></div>
+<div class="plan"><h3>Maintenance</h3><div class="amt">$49 <small>/ month</small></div><ul><li>Hosting and security updates</li><li>Small edits whenever you need them</li><li>Hours, menus, prices kept current</li><li>I keep an eye on it so it stays working</li><li>Cancel anytime</li></ul></div>
+</div></section>
+
+<section id="process"><p class="kicker">How it works</p><h2>Three steps. That's it.</h2>
+<div class="steps">
+<div class="step"><h3>We talk</h3><p>A short conversation about your business, your customers, and what you need the site to do.</p></div>
+<div class="step"><h3>I build it</h3><p>You get a draft to look over. We tweak it until you're happy with it.</p></div>
+<div class="step"><h3>You go live</h3><p>Your site launches, and I keep it up to date for you each month.</p></div>
+</div></section>
+
+<section><div class="sample"><div><p class="kicker" style="color:#fdba74">Sample work</p><h2>See what a finished site looks like.</h2><p>Here's an example site for a made-up mountain-town coffee shop — the kind of thing your business could have.</p></div><a class="btn" href="./sample/index.html">View the sample site →</a></div></section>
+
+<section class="contact" id="contact"><h2>Let's get your business online.</h2><p>Tell me your business name and town. I'll reply with ideas — no pressure.</p>
+<p><a class="btn" href="mailto:forgeandformweb@gmail.com?subject=Website%20for%20my%20business">forgeandformweb@gmail.com</a></p></section>
+</main>
+<footer>© 2026 Forge &amp; Form · Websites for local businesses · <a href="mailto:forgeandformweb@gmail.com">forgeandformweb@gmail.com</a></footer>
+</div></body></html>
